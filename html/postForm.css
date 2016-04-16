@@ -1,0 +1,29 @@
+@charset "utf-8";*{padding:0px;margin:0px;}
+body{margin:0px;padding:0px;background-color:#eee;word-break:break-all;}body,td,th{color:#444;font-size:12px;font-family:Tahoma;}html{overflow-y:auto!important;*overflow-y:scroll;}
+table caption{height:0px;}
+a:link{color:#444;text-decoration:none;}
+a:visited{color:#444;text-decoration:none;}
+a:hover{color:#ff6600;text-decoration:none;}
+a:active{color:#444;text-decoration:none;}
+img{border:0px;}
+input,form,textarea,option{color:#666;border:0px;background:none;}
+input:focus,input.focus{color:#666;border:1px solid #1FB915;background-color:#FFFFCC;}
+optgroup{color:#BBB;font-size:10px;font-family:Tahoma;}
+select,option{font-size:12px;color:#666;font-family:Tahoma;}
+.clear{clear:both;}.KeyWords{color:#FF6F00;}
+#tcCount{display:none;}
+.RedTxt{color:#FF6600;}
+#LoginPannel{margin:20px auto;padding:1px;width:998px;height:320px;background-color:#FFF;border:1px solid #D6D6D6;}
+#LoginHead{margin:0px auto;padding:40px 0px 15px 0px;width:998px;height:75px;line-height:65px;text-align:center;font-size:14px;background-color:#F5F5F5;}
+#LoginHead a{margin:0px auto;display:block;width:273px;height:75px;background-image:url(../Images/welcome.png);}
+#LoginBody{margin:0px auto;width:998px;height:190px;background-color:#F5F5F5;}
+#regBody{margin:0px auto;width:360px;height:190px;background-color:#F5F5F5;}
+.LoginFromItem{margin:0px auto;padding:5px 0px;width:998px;height:22px;text-align:center;background-color:#F5F5F5;}
+.LoginFromUrl{margin:0px auto;padding:30px 0px 0px 0px;width:998px;height:22px;line-height:22px;text-align:center;background-color:#F5F5F5;}
+.LoginFromUrl a{color:#666;}
+.LoginFromItemTxt{float:left;padding:0px 5px 0px 0px;width:435px;height:22px;line-height:22px;text-align:right;}
+.LoginFromItemInput{float:left;width:360px;height:22px;line-height:22px;text-align:left;}
+.inputText{padding:2px;width:150px;font-size:12px;font-family:'lucida grande',tahoma;border-top:1px solid #7C7C7C;border-left:1px solid #7C7C7C;border-right:1px solid #DDD;border-bottom:1px solid #DDD;background-color:#FFF;}
+.inputText:focus,inputText.focus{border:1px solid #1FB915;background-color:#FFFFCC;}
+.btnSubmit{color:#FFF;font-size:11px;padding:1px 2px;background:#F8591D;border-top:1px solid #FBAF5D;border-left:1px solid #FBAF5D;border-right:1px solid #F26522;border-bottom:1px solid #F26522;}
+.btnCancel{color:#FFF;font-size:12px;padding:4px 8px;background:#616161;border-top:1px solid #747474;border-left:1px solid #747474;border-right:1px solid #505050;border-bottom:1px solid #505050;}

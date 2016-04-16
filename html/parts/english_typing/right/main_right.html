@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="main_right.css" media="screen" />
+<title>无标题文档</title>
+</head>
+
+<body>
+ <div class="right" id="right">
+	    <div class="right_articles">
+	      <div align="justify">
+	        <table width="100%" border="0">           
+	          <tbody><tr>
+			  <td width="46%" rowspan="4"><img src="images/dog.jpeg" alt="默认照片" width="129" height="80" /></td>             
+	    	  <td width="54%" height="20"><a href="images/dengji.jpg" title="点击看等级说明" target="_blank">等级</a>:无等级</td></tr>           
+	          <tr><td height="20">积分: <font color="#006600">0</font></td></tr>           
+	           <tr><td height="20">会员: <font color="red">游客身份</font></td></tr>           
+	            <tr><td height="20">称号: 没有称号</td></tr>           
+	            <tr><td height="20"><p align="center"><a href="#">登录</a>|<a href="#">注册</a></p></td>             
+	    			<td><p>P K : <font color="#006600">0</font>胜<font color="#006600">0</font>负 </p></td></tr>           
+	            <tr>             
+	              <td height="4"></td>            
+	    		  <td></td>           
+	    		</tr>       
+	            </tbody>
+	          </table>
+	      </div>
+		  </div>
+		  
+		  <div class="right_articles">
+		      <div align="justify">
+		        <table width="100%" border="1" cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+		          <tbody><tr align="center">
+		            <td height="25" colspan="2" id="articleInfo">共1257字 每页100字</td></tr>
+		            <tr align="center">
+		              <td height="25" colspan="2" id="cPageshu">
+					  <button class="btnSubmit" onclick="javascript:clearInterval(intervalID);isStop=1;">暂停</button> 
+					  共13页
+					   <span id="cLeft"><a href="#" title="前一页" onclick="setCTypeContent(0)">←</a></span>
+					    第
+						<span id="cPage">1</span>
+						页 
+						<span id="cRight"><a href="#" title="后一页" onclick="setCTypeContent(2)">→</a></span></td>
+                	</tr>
+		            <tr>
+		              <td width="45%" height="25">当前字符</td>
+                  		<td width="55%" height="25" class="pinyiwubi" id="cZhi">　</td>
+                	</tr>
+			          
+		            <tr>
+		              <td height="25">拼　　音</td>
+                  <td height="25" class="pinyiwubi" id="cZhiPinYin">　</td>
+                </tr>
+		            <tr>
+		              <td height="25">五　　笔</td>
+                  <td height="25" class="pinyiwubi" id="cZhiZHM">　</td>
+                </tr>			
+		            <tr>
+		              <td height="25">二　　笔</td>
+                  <td height="25" class="pinyiwubi" id="cZhiWuBi">　</td>
+                </tr>
+			          
+		            <tr>
+		              <td height="25">打字总数</td>
+                  <td height="25" id="zongzishu">0</td>
+                </tr>
+		            <tr>
+		              <td height="25">打对字数</td>
+                  <td height="25" id="daduizhishu">0</td>
+                </tr>
+		            <tr>
+		              <td height="25">打错字数</td>
+                  <td height="25" id="dacuozhishu">0</td>
+                </tr>
+		            <tr>
+		              <td height="25">正 确 率</td>
+                  <td height="25"><span id="zhengquelv">0</span>%</td>
+                </tr>
+		            <tr>
+		              <td height="25">剩余时间</td>
+                  <td height="25" class="pinyiwubi" id="shengyutime">60秒</td>
+                </tr>
+		            <tr>
+		              <td height="25">打字成绩</td>
+                  <td height="25" class="pinyiwubi" id="dazichengji">0</td>
+                </tr>
+	              </tbody>
+	            </table>
+		    </div>
+		  </div>
+</div>
+</body>
+</html>
